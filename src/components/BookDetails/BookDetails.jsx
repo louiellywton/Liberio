@@ -65,15 +65,15 @@ const BookDetails = () => {
               <span className='fw-6'>{book?.description}</span>
             </div>
             <div className='book-details-item'>
-              <span className='fw-6'>Subject places: </span>
+              <span className='fw-6'>Book Location: </span>
               <span className='text-italic'>{book?.subject_places}</span>
             </div>
             <div className='book-details-item'>
-              <span className='fw-6'>Subject times: </span>
+              <span className='fw-6'>Book Time: </span>
               <span className='text-italic'>{book?.subject_times}</span>
             </div>
             <div className='book-details-item'>
-              <span className='fw-6'>Subjects: </span>
+              <span className='fw-6'>Abstract: </span>
               <span>{book?.subjects}</span>
             </div>
           </div>

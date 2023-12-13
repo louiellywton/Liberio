@@ -27,7 +27,7 @@ const Book = (book) => {
             <span>{book.edition_count}</span>
         </div>
         <div className='book-item-info-item publish-year fs-15'>
-            <span className='capitalize fw-7'>First Publish Year: </span>
+            <span className='capitalize fw-7'>Year Published: </span>
             <span>{book.first_publish_year}</span>
         </div>
       </div>
